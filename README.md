@@ -1,11 +1,9 @@
-# Calculator
+# JavaScript Projects Repository
 
-A simple calculator web application implemented using HTML, CSS, and JavaScript.
+Welcome to the JavaScript Projects repository! This repository contains various JavaScript projects that you can explore and use. Each project is located in its respective directory, and this README serves as a guide to the projects available.
 
-## Features
+## Projects
 
-- Addition, subtraction, multiplication, and division operations.
-- Responsive design for various screen sizes.
-- Clear button to reset the calculator.
-- Dynamic display for entered expressions and results.
-  
+### 1. Calculator
+- Directory: `Calculator`
+- Description: A simple calculator application built using HTML, CSS, and JavaScript.

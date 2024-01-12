@@ -7,3 +7,7 @@ Welcome to the JavaScript Projects repository! This repository contains various 
 ### 1. Calculator
 - Directory: `Calculator`
 - Description: A simple calculator application built using HTML, CSS, and JavaScript.
+
+
+#### 2.Tic Rac Toe
+- Directory: `Tic Tac Toe`

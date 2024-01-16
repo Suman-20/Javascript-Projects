@@ -9,5 +9,5 @@ Welcome to the JavaScript Projects repository! This repository contains various 
 - Description: A simple calculator application built using HTML, CSS, and JavaScript.
 
 
-#### 2.Tic Tac Toe
+### 2.Tic Tac Toe
 - Directory: `Tic Tac Toe`

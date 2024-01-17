@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Ubuntu&display=swap');
+html{
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    height: 100vh;
+    background : linear-gradient(135deg,#8052ec,#d161ff);
+}
+
+#head{
+    margin: 40px 0 20px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Permanent Marker",cursive;
+    text-align: center;
+}
+.cell{
+     height: 100px;
+     width: 100px;
+     background-color: white;
+    border-radius: 10px;
+    font-size: 60px;
+    cursor: pointer;
+}
+
+#board{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 315px;
+    height: 315px;
+}
+
+
+#btn{
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #0a0027;
+    color: white;
+    cursor: pointer;
+}
+
+#statusText{
+    font-size: 85px;
+    margin-top: 20px;
+}
+
+.hide{
+    display: none;
+}

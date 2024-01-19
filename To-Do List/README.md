@@ -15,4 +15,6 @@ A simple to-do list application to help you organize your tasks efficiently.
 
 ## Screenshot
 
-![Tic Tac Toe](https://github.com/Suman-20/Javascript-Projects/assets/155362476/02e0919c-9027-41c8-a5f6-d2566b963913)
+
+
+![To-do List](https://github.com/Suman-20/Javascript-Projects/assets/155362476/94d27277-0ab9-4914-9e4c-2fface8fa307)

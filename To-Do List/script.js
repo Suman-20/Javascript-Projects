@@ -12,7 +12,7 @@ function addTodo(){
     }
     else{
     const listItem = document.createElement("li");
-    const todoItem = `${inputBox.value} <i class="fa-solid fa-trash" onclick="removeTodo(this)"></i>`;
+    const todoItem = `${inputBox.value} <i id = "del" class="fa-solid fa-trash" onclick="removeTodo(this)"></i>`;
     listContainer.appendChild(listItem);
     listItem.innerHTML=todoItem;
     //Eventlistener for click on trash

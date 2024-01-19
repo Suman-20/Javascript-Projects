@@ -1,63 +1,98 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Ubuntu&display=swap');
-html{
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Ubuntu', sans-serif;
-}
-
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins';
     box-sizing: border-box;
-
-}
-body{
-    height: 100vh;
-    background : linear-gradient(135deg,#8052ec,#d161ff);
-}
-
-#head{
-    margin: 40px 0 20px;
 }
 .container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: "Permanent Marker",cursive;
-    text-align: center;
-}
-.cell{
-     height: 100px;
-     width: 100px;
-     background-color: white;
-    border-radius: 10px;
-    font-size: 60px;
-    cursor: pointer;
-}
-
-#board{
-    display: grid;
-    grid-template-columns: repeat(3,auto);
-    width: 315px;
-    height: 315px;
-}
-
-
-#btn{
-    margin-top: 20px;
-    font-size: 20px;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg ,#153677,#4e085f);
     padding: 10px;
-    border-radius: 8px;
-    background-color: #0a0027;
-    color: white;
-    cursor: pointer;
-}
+    display: flex;
+    justify-content: center;
+    
 
-#statusText{
-    font-size: 85px;
+}
+.todo{
+    width: 550px;
+    border-radius: 10px;
+    align-items: center;
+    background: #fff;
+    margin-top: 120px;
+    
+}
+.todo h2{
+    margin: 30px;
+    font-size: 40px; 
+}
+.todo h2 img{
+    width: 35px ;
+    margin-left: 10px;
     margin-top: 20px;
+    
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #edeef0;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+input{
+    flex:1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 14px;
+    font-size: 15px;
+
+
+}
+#del{
+    margin-right: 20px;
+}
+button{
+    outline: none;
+    border: none;
+    padding: 16px 50px;
+    background: #ff5945;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
 }
 
-.hide{
-    display: none;
+ul li{
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    position:relative;
+    display: flex;
+    justify-content:space-between;
+
+}
+
+
+ul li::before{
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url(To-Do-Img/unchecked.png);
+    background-size: cover;
+    background-position: center; 
+    top: 12px;
+    left: 8px;
+
+}
+
+
+ul li.checked::before{
+    background-image: url(To-Do-Img/checked.png);
 }

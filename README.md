@@ -6,8 +6,14 @@ Welcome to the JavaScript Projects repository! This repository contains various 
 
 ### 1. Calculator
 - Directory: `Calculator`
-- Description: A simple calculator application built using HTML, CSS, and JavaScript.
+- Description: A simple calculator application that allows users to perform arithmetic operations built.
 
 
 ### 2.Tic Tac Toe
 - Directory: `Tic Tac Toe`
+- Description: A classic game of Tic-Tac-Toe for two players made using Html,Css,Javascript.
+  
+
+### 3.To-Do List
+- Directory: `To Do List`
+- Description: A simple to-do list application to help you organize your tasks.

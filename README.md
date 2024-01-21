@@ -17,3 +17,6 @@ Welcome to the JavaScript Projects repository! This repository contains various 
 ### 3.To-Do List
 - Directory: `To-Do List`
 - Description: A simple to-do list application to help you organize your tasks.
+
+
+### 4.Password Generator

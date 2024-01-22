@@ -1,1 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" 
+    >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="main">
+    <div class="container">
+        <h1>Password Generator</h1>
+        <div class="password">
+        <input type="text" class="res" id="pass-box" >
+       
+        </div>
+        <div class="conditons">
+            <div class="length space ls">
+                      <div class="left">Password length</div>
+                      <div class="right">
+                           <input type="number" id="len">
+                      </div>
+            </div>
+            <div class="uppercase space ">
+                       <label for="1" class="left">Contains Uppercase</label>
+                       <input type="checkbox" class="checkbox" name="1" id="u-c">
+            </div>
+            <div class="lowercase space left ">
+                       <label for="2">Contains Lowercase</label>
+                       <input type="checkbox" class="checkbox" name="2" id="l-c">
+            </div>
+            <div class="number space left ">
+                       <label for="3">Contains Number</label>
+                       <input type="checkbox" class="checkbox" name="3" id="num">
+            </div>
+            <div class="symbol space left ">
+                       <label for="1">Contains Symbol</label>
+                       <input type="checkbox" class="checkbox"  name="1" id="symb">
+            </div>
 
+        </div>
+        <div class="generate">
+            <button id="btn">Generate</button>
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #4169E1;
+}
+h1{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    
+}
+.container{
+    width: 370px;
+    min-height: 450px;
+    background-color: white;
+    border-radius: 30px;
+}
+.res {
+    height: 45px;
+    width: 350px;
+    border-radius: 8px;
+    margin: 20px 0px 0px 10px;
+    background-color: #4169E1;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    outline: none;
+    border: none;
+}
+.length{
+    margin-top: 20px;
+}
+.ls{
+    display: flex;
+    justify-content: space-between;
+}
+.space{
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+.checkbox{
+    height: 29px;
+    margin-right: 37px;
+    width: 20px;
+}
+.left{
+    margin-left: 12px;
+    font-size: 25px;
+}
+.right input{
+    width: 50px;
+    height: 29px;
+    margin-right: 20px;
+    border-radius: 3px;
+}
+.generate{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+button{
+    height: 45px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: #4169E1;
+    color: white;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.res input{
+    font-size: 40px;
+  font-weight: initial;
+}
+
+input{
+    font-size: 18px;
+}

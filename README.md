@@ -20,3 +20,5 @@ Welcome to the JavaScript Projects repository! This repository contains various 
 
 
 ### 4.Password Generator
+- Directory: `Password Generator`
+- Description: An application which generates random password according to the user requirements.

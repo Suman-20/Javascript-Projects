@@ -22,3 +22,8 @@ Welcome to the JavaScript Projects repository! This repository contains various 
 ### 4.Password Generator
 - Directory: `Password Generator`
 - Description: An application which generates random password according to the user requirements.
+
+
+### 5.Currency Converter
+- Directory: `Currency Converter`
+- Description: A simple web application which converts value of one currency to another currency.

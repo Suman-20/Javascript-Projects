@@ -1,1 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+   
+     <div class="container">
+            
+        <div class="heading">Currency Converter</div>
+        <div class="converter">
+            <div class="amount cmn">
+                <div>Amount</div>
+                <input type="text" id="amt"></div>
 
+            <div class="from cmn">
+                <div>From</div>
+                <select name="" id="fromCurr">
+                    <option value="USD">US Dollar</option>
+                    
+                </select></div>
+
+            <div class="convert"><i class="fa-solid fa-arrow-right-arrow-left"></i></div>
+            
+            <div class="to cmn">
+                <div>To</div>
+                <select name="" id="toCurr">
+                    <option value="INR">Indian National Rupee</option>
+                    
+                </select></div>
+            
+            </div>
+            <div class="op"></div>
+        <button class="btn" onclick=conversion()>Convert</button>
+
+         </div>
+    </div>
+    
+</body>
+<script src="script.js"></script>
+<script src="countries.js"></script>
+</html>

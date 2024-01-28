@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f1faee;
+    min-height: 100vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+
+}
+.container{
+    height: 40vh;
+    width: 75vw;
+    background-color: #7678ed;
+    border-radius: 5px;
+    color: #dee2e6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.heading{
+    font-weight: 400;
+    font-size: 3.5rem;
+}
+.amount{
+    margin-bottom: 45px
+}
+.converter{
+    margin: 25px 0 0 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.convert{
+    margin-top: 70px;
+    margin-right: 20px;
+}
+.btn{
+    border: none;
+    border-radius: 5px;
+    width: 12vw;
+    height: 5vh;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #7678ed;
+    margin-bottom: 18px;
+}
+.btn:hover{
+    cursor: pointer;
+    width: 13vw;
+    height: 7vh;
+    background-color: white;
+}
+.cmn{
+    font-size: 2.5rem;
+}
+input:focus {
+    outline: none;
+}
+input,select {
+    width: 20vw;
+    height: 6vh;
+    margin-right: 40px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+}
+.op{
+    margin-bottom: 15px;
+    font-size: 2rem;
+    color:#f1faee;
+    
+}
+
+input,select text{
+    padding: 5px;
+}
+
+
+@media (max-width:930px) {
+    .container{
+        height: 80vh;
+        align-items: center;
+    }
+    .heading{
+        text-align: center;
+    }
+    .converter{
+        flex-direction: column;
+    }
+    .convert{
+        display: flex;
+        justify-content: center;
+        margin: 45px 90px 0px 0px;
+    }
+    input,select{
+        width: 60vw;
+    }
+    .btn{
+        width: 30vw;
+    }
+}

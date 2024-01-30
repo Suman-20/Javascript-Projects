@@ -29,4 +29,7 @@ Welcome to the JavaScript Projects repository! This repository contains various 
 - Description: A simple web application which converts value of one currency to another currency.
 
 
+### 6.Weather App
+
+
 

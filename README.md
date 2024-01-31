@@ -30,6 +30,8 @@ Welcome to the JavaScript Projects repository! This repository contains various 
 
 
 ### 6.Weather App
+-Directory: `Weather App`
+-Description:
 
 
 
